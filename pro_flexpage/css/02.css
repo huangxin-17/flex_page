@@ -1,0 +1,152 @@
+		.my_header{
+			width: 100%;
+			height: 60px;
+			position: fixed;
+			top: 0px;			
+			/* background: rgba(255,255,255,0.95) !important; */
+			z-index: 9;
+		}
+		.my_footer{
+			width: 100%;
+			height: 370px;
+		}
+		.height1_top{
+			height: 60px;
+		}
+		.height1_turn{
+			height: 200px;
+		}
+		.color1{
+			color: #8169fa;
+		}
+		.color2{
+			color: rgba(0,0,0,.5);
+		}
+		.color3{
+			color: #4a4a4a;
+		}
+		.color4{
+			color: #9b9b9b;
+		}
+		.bg1{
+			background-color:#8169fa ;
+		}
+		.bg2{
+			background-color: #f8f8fb;
+		}
+		.border1{
+			border:2px solid #8169fa;
+		}
+		.border2{
+			border-radius: 20px;
+		}
+		.btn2{
+			max-width: 130px;
+		}
+		.font1{
+			font-size: 20px;
+		}
+		.font2{
+			font-size: 16px;
+			font-family: "microsoft yahei";
+		}
+		.font3{
+			font-size: 30px;
+		}
+		.font4{
+			font-size: 56px;
+		}
+		.font5{
+			font-size: 24px;
+		}
+		.font_4{
+			font-size: 56px;
+		}
+		.font_5{
+			font-size: 24px;
+		}
+		.font6{
+			font-size: 12px;
+		}
+		.w-20{
+			width: 20%;
+		}
+		.w-40{
+			width: 40%;
+		}
+		.d_pr{
+			position: relative;
+		}
+		.img_height{
+			height: 30px;
+		}
+		.img_height1{
+			height: 50px;
+		}
+		.img_sty{
+			display: block;
+			margin: 0 auto;
+		}
+		.d_img{
+			position: absolute;
+			left:17%;
+		}
+		.d_img2{
+			position: absolute;
+			top:14%;
+			left:32%;
+		}
+		.d_width{
+			width: 600px;
+		}
+		.c_width{
+			width: 65px;
+			height: 65px;
+		}
+		.m1_width{
+			max-width: 652px;
+		}
+		#hov > div:hover{
+			background: #5BC6F9 !important;
+		}
+		#btn1:hover,#btn2:hover{
+			background-color:#8169fa !important;
+			border-color: #8169fa !important;
+		}
+		#btn3:hover,#btn4:hover{
+			color: #8169fa !important;
+			text-decoration: none !important;
+		}
+		#head{
+			position: fixed;
+			top:0px;
+			background: rgba(255,255,255,0.95) !important;
+			z-index: 9;
+		}
+		@media (max-width: 576px){
+			.my_header{
+				height: 80px;				
+			}
+		}
+		@media (max-width: 768px){
+		    .height1_turn{
+		    	height: 360px;
+		    }
+			.font_4{
+				font-size: 24px;
+			}
+			.font_5{
+				font-size: 20px;
+			}
+			#head{
+				height: 80px;
+			}
+			.img_height{
+				height: 25px;
+			}
+		}
+		@media (min-width: 1024px){		
+			.height1_turn{
+				height: 210px;
+			}
+		}
